@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Candillon</title>
+    <!-- PWA : le manifest rend l'app installable (Chrome → « Installer l'application »).
+         Pas de service worker, choix délibéré : l'app est inutilisable sans réseau de toute
+         façon (Supabase, météo), et un cache de bundle périmé coûte plus qu'il ne rapporte. -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#2F4A2D" />
+    <link rel="icon" type="image/png" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="icon-192.png" />
+    <style>
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: #FBF8EF; -webkit-tap-highlight-color: transparent; }
+    </style>
+    <script type="module" crossorigin src="/candillon-app/assets/index-DiYPAgGo.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "Candillon",
+  "short_name": "Candillon",
+  "description": "Votre jardin en 3D : arrosage calculé, récoltes, planification.",
+  "lang": "fr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF8EF",
+  "theme_color": "#2F4A2D",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
